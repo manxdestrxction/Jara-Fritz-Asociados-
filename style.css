@@ -1,3 +1,16 @@
+.hero {
+  background: url('tu-imagen.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+.hero h1 {
+  font-size: 2em;
+}
 /* Quita márgenes y define fuente */
 body {
   margin: 0;
