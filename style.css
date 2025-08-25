@@ -1,0 +1,47 @@
+/* Quita márgenes */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header con logo + menú */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #002244; /* azul oscuro como base */
+  color: white;
+}
+
+/* Logo */
+.logo {
+  height: 60px;
+}
+
+/* Menú */
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #0055aa;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #003f7d;
+}
